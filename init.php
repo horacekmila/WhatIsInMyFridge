@@ -4,5 +4,6 @@
         -> configuration of database
         -> css, js
 */
-
+require_once("vendor/autoload.php");
+require_once("oop/autoloader.php");
 require_once("config/config.mysql.php");

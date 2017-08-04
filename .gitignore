@@ -3,3 +3,4 @@ vendor/*
 bower_components
 .vscode
 config/config.mysql.php
+composer.lock
