@@ -3,6 +3,8 @@
     // -> it's loading all libraries in vendor and all classes from "oop/*"
 
     require_once("init.php"); 
+    $foods = new KnownFoods;
+    $foods->loadValues();
 ?>
 <!DOCTYPE html>
 <html>

@@ -2,7 +2,7 @@
 // 
 
     class loadDibi{
-        public $dibi;
+        public $db;
 
         public function loadDibi(){
             $db = new Dibi\Connection([
@@ -12,7 +12,7 @@
                 'password' => MYSQL_PASSWORD,
                 'database' => MYSQL_DATABASE
             ]);
-            $this->dibi = $db;
+            $this->db = $db;
             return true;
         }
     }
